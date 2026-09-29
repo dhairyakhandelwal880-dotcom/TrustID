@@ -283,7 +283,7 @@
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
         Sign In
       </button>
-      <a href="https://trustidentity.ai.studio" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Launch App &nearr;</a>
+      <a href="https://trust-id-pay.base44.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Launch App &nearr;</a>
     </div>
   </div>
 </header>
@@ -297,7 +297,7 @@
         TrustID transforms student ID cards into parent-funded, closed-loop wallets. Spendable strictly at verified campus merchants with complete real-time parent controls.
       </p>
       <div class="hero-actions">
-        <a href="https://trustidentity.ai.studio" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Open Live App &nearr;</a>
+        <a href="https://trust-id-pay.base44.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Open Live App &nearr;</a>
         <button class="btn btn-portal" onclick="openLoginModal()">Select Role &rarr;</button>
       </div>
     </div>
@@ -465,7 +465,7 @@
   <div class="wrap">
     <div>&copy; 2026 TrustID. All rights reserved.</div>
     <div style="display: flex; gap: 20px;">
-      <a href="https://trustidentity.ai.studio" target="_blank" rel="noopener noreferrer" style="color: var(--indigo-light);">trustidentity.ai.studio &nearr;</a>
+      <a href="https://trust-id-pay.base44.app" target="_blank" rel="noopener noreferrer" style="color: var(--indigo-light);">trust-id-pay.base44.app &nearr;</a>
       <span>The Accountable Campus Identity Platform</span>
     </div>
   </div>
@@ -499,7 +499,7 @@
 </div>
 
 <script>
-  const APP_URL = "https://trustidentity.ai.studio";
+  const APP_URL = "https://trust-id-pay.base44.app";
 
   function openLoginModal() {
     document.getElementById('loginModal').classList.add('active');
@@ -516,7 +516,7 @@
   }
 
   function redirectToApp(role) {
-    const targetUrl = role ? `${APP_URL}?role=${encodeURIComponent(role)}` : APP_URL;
+    const targetUrl = role ? `${APP_URL}/?role=${encodeURIComponent(role)}` : APP_URL;
     window.open(targetUrl, '_blank', 'noopener,noreferrer');
     closeLoginModal();
   }
